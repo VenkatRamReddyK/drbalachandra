@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    button{
+        @apply  font-medium rounded-lg text-base px-5 py-2 text-center border-2 hover:border-gray-900;
+    }
+    .custom-shape-divider-bottom-1642764557 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1642764557 svg {
+        position: relative;
+        display: block;
+        width: calc(183% + 1.3px);
+        height: 116px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1642764557 .shape-fill {
+        fill: #F1F5F9;
+    }
+}
