@@ -13,7 +13,7 @@ function Navigation() {
         </div>
         <div className=' flex justify-between h-20 items-center shadow-lg border-t-2 px-5 z-10 sticky'>
             <div className='flex items-center'>
-            <img src={'teeth.svg'} alt="" /> <p className=' font-bold'>Dr Balakrishna
+            <img src={'teeth.svg'} alt="" /> <p className=' font-bold text-2xl'>Dr Bala Krishna
             </p></div>
 
             <div className=' space-x-3'>
@@ -29,7 +29,7 @@ function Navigation() {
                 </button>
             </div>
         </div>
-    </div>;
+    </div>
 }
 
 export default Navigation;
