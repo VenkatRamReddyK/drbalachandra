@@ -5,22 +5,22 @@ import { Typewriter } from 'react-simple-typewriter'
 function LandingPage() {
     return <div className='' >
         <main className=''>
-            <div className='bg-center bg-cover bg-hero-section'>
-                <div className='container flex flex-row items-center justify-between mx-auto '>
+            <div className='bg-center bg-cover bg-hero-section 2xl:bg-contain'>
+                <div className='container flex flex-row items-center justify-between mx-auto mt-12 lg:mt-5 '>
                     <div className='flex flex-col justify-center m-6'>
                         <h1>
                             This is great and awesome
                         </h1>
                         <p className='mb-10'>
-                            Dentist and doctor are same &nbsp;
+                            Served 
                             <Typewriter
-                                words={['Eat', 'Sleep', 'Code', 'Repeat!']}
-                                loop={5}
+                                words={[' more than 1M Happy Customers', ' for 18+ years and running still', ' as Family instead of client', ' inka text rayali mawa bro']}
+                                loop={10}
                                 cursor
-                                cursorStyle='_'
-                                typeSpeed={70}
-                                deleteSpeed={50}
-                                delaySpeed={1000}
+                                cursorStyle='🦷'
+                                typeSpeed={90}
+                                deleteSpeed={100}
+                                delaySpeed={2000}
                             />
                         </p>
                         <a href="" className='colorButton w-max'>

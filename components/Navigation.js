@@ -42,7 +42,7 @@ function Navigation() {
         <nav className={'navbar drop-shadow-lg'}>
             <div className='z-10 flex items-center justify-between h-20 px-5 border-t-2 '>
                 <div className='flex items-center'>
-                    <img src={'teeth.svg'} alt="" /> <h3 className='ml-2 text-lg font-bold sm:text-base md:text-lg lg:text-2xl '>Dr Bala Krishna
+                    <img src={'about-tooth.png'} className=' w-10' alt="" /> <h3 className='ml-2 text-lg font-bold sm:text-base md:text-lg lg:text-2xl '>Dr Bala Chandra DDS
                     </h3></div>
 
 

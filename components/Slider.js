@@ -9,8 +9,8 @@ export default function MyApp() {
                 <div className="w-1/3 h-full bg-white" />
                 <div className="w-4/6 h-full ml-16 bg-gray-100" />
             </div>
-            <div className="relative px-8 py-20 xl:px-20 2xl:mx-auto 2xl:container">
-                <CarouselProvider naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={2}>
+            <div className="relative px-8 py-20 xl:px-20 2xl:mx-auto 2xl:container cursor-pointer">
+                <CarouselProvider naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={3} infinite={true} dragEnabled={true} interval={1}>
                     <h1 className="hidden text-5xl font-bold leading-tight text-gray-800 xl:block">
                         What our customers are
                         <br />
@@ -22,9 +22,9 @@ export default function MyApp() {
                             <div className="flex">
                                 <div className="mt-14 md:flex">
                                     <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
-                                        <img src="https://i.ibb.co/4g1D9cv/imgslider1.png" alt="image of profile" className="flex-shrink-0 object-cover w-full h-full rounded shadow-lg object-fit" />
-                                        <div className="absolute top-0 right-0 items-center justify-center hidden w-32 h-32 -mr-16 bg-indigo-100 rounded-full md:flex -mt-14">
-                                            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg1.svg" alt="commas" />
+                                        <img src="Customer/1.jpg" alt="image of profile" className="flex-shrink-0 object-cover w-full h-full rounded shadow-lg object-fit " />
+                                        <div className="absolute top-0 right-0 items-center justify-center hidden w-32 h-32 -mr-16 bg-pink-100 rounded-full md:flex -mt-14">
+                                            <img src="vectorpaint.svg" alt="commas" />
                                         </div>
                                     </div>
                                     <div className="flex flex-col justify-between mt-4 md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0">
@@ -44,9 +44,31 @@ export default function MyApp() {
                             <div className="relative flex" style={{ transform: 'translateX(0%)' }}>
                                 <div className="mt-14 md:flex">
                                     <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
-                                        <img src="https://i.ibb.co/4g1D9cv/imgslider1.png" alt="image of profile" className="flex-shrink-0 object-cover w-full h-full rounded shadow-lg object-fit" />
-                                        <div className="absolute top-0 right-0 items-center justify-center hidden w-32 h-32 -mr-16 bg-indigo-100 rounded-full md:flex -mt-14">
-                                            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg1.svg" alt="commas" />
+                                        <img src="Customer/2.jpg" alt="image of profile" className="flex-shrink-0 object-cover w-full h-full rounded shadow-lg object-fit" />
+                                        <div className="absolute top-0 right-0 items-center justify-center hidden w-32 h-32 -mr-16 bg-pink-100 rounded-full md:flex -mt-14">
+                                            <img src="vectorpaint.svg" alt="commas" />
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col justify-between mt-4 md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0">
+                                        <div>
+                                            <h1 className="text-2xl font-semibold text-gray-800 xl:leading-loose">Some of the best work that was done!</h1>
+                                            <p className="mt-4 text-base font-medium leading-6 text-gray-600">Our core values are at the heart of all that we do. They are integrated into our daily work lives and help us to remember our customers always comes first, the last thank you should always comes from us.</p>
+                                        </div>
+                                        <div className="mt-8 md:mt-0">
+                                            <p className="text-base font-medium leading-4 text-gray-800">Anna Smith</p>
+                                            <p className="mt-2 mb-4 text-base leading-4 text-gray-600">Senior Web Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Slide>
+                        <Slide index={0}>
+                            <div className="relative flex" style={{ transform: 'translateX(0%)' }}>
+                                <div className="mt-14 md:flex">
+                                    <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
+                                        <img src="Customer/3.jpg" alt="image of profile" className="flex-shrink-0 object-cover w-full h-full rounded shadow-lg object-fit" />
+                                        <div className="absolute top-0 right-0 items-center justify-center hidden w-32 h-32 -mr-16 bg-pink-100 rounded-full md:flex -mt-14">
+                                            <img src="vectorpaint.svg" alt="commas" />
                                         </div>
                                     </div>
                                     <div className="flex flex-col justify-between mt-4 md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0">

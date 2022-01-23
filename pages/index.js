@@ -5,12 +5,14 @@ import Social from '../components/Social'
 import Slider from '../components/Slider'
 import Footer from '../components/Footer'
 import Services from '../components/Services'
+import Features from './../components/Features';
 export default function Home() {
   return (
     <div className="">
       <Navigation />
       <LandingPage />
       <Services />
+      <Features/>
       <Social />
       <Slider />
       <Footer />

@@ -10,13 +10,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage:theme=>({
-        'hero-section':"url('/hero-pattern.png')"
+      backgroundImage: theme => ({
+        'hero-section': "url('/hero-pattern.png')"
       }),
       colors: {
         'themeColor': '#1854ee',
         'primary': '#83d483',
         'secondary': "#6c6c6c",
+        'background-button': "#f0b6d",
       }
     },
   }
