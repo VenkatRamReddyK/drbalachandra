@@ -42,7 +42,7 @@ function Navigation() {
         <nav className={'navbar drop-shadow-lg'}>
             <div className='z-10 flex items-center justify-between h-20 px-5 border-t-2 '>
                 <div className='flex items-center'>
-                    <img src={'about-tooth.png'} className=' w-10' alt="" /> <h3 className='ml-2 text-lg font-bold sm:text-base md:text-lg lg:text-2xl '>Dr Bala Chandra DDS
+                    <img src={'about-tooth.png'} className=' w-10' alt="" /> <h3 className='ml-2 text-base font-bold sm:text-base md:text-lg lg:text-2xl '>Dr Bala Chandra DDS
                     </h3></div>
 
 
@@ -85,14 +85,17 @@ function Navigation() {
                             className="absolute inset-x-0 top-0 z-10 p-2 transition origin-top-right transform md:hidden"
                         >
                             <div className="overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-black ring-opacity-5">
-                                <div className="flex items-center justify-between px-5 pt-4">
-                                    <div>
+                                <div className="flex items-center  justify-between px-5 pt-4">
+                                    <div className='flex items-center'>
                                         <img
                                             className="w-auto h-8"
-                                            src={'teeth.svg'}
+                                            src={'about-tooth.png'}
                                             alt=""
                                         />
+
                                     </div>
+                                    <h3 className='ml-2 text-base flex font-bold sm:text-sm md:text-base lg:text-2xl '>Dr Bala Chandra DDS
+                                    </h3>
                                     <div className="-mr-2">
                                         <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                                             <span className="sr-only">Close main menu</span>

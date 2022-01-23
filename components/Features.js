@@ -3,8 +3,8 @@ import React from 'react';
 function Features() {
     return <div>
 
-        <section class="py-20 bg-gray-50">
-            <div class="container items-center max-w-6xl px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+        <section class="py-20 ">
+            <div class="container items-center px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
                 <div class="flex flex-wrap items-center -mx-3">
                     <div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
                         <div class="w-full lg:max-w-md">

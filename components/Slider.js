@@ -4,13 +4,13 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 export default function MyApp() {
     return (
-        <div>
+        <div className="bg-gray-50">
             <div className="absolute z-0 flex items-center justify-between w-full">
                 <div className="w-1/3 h-full bg-white" />
                 <div className="w-4/6 h-full ml-16 bg-gray-100" />
             </div>
             <div className="relative px-8 py-20 xl:px-20 2xl:mx-auto 2xl:container cursor-pointer">
-                <CarouselProvider naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={3} infinite={true} dragEnabled={true} interval={1}>
+                <CarouselProvider naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={3} infinite={true} dragEnabled={true}>
                     <h1 className="hidden text-5xl font-bold leading-tight text-gray-800 xl:block">
                         What our customers are
                         <br />
