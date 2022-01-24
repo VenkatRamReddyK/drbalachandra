@@ -1,9 +1,9 @@
 import React from 'react';
 
 const navigation = [
-    { name: 'About', href: '#' },
+    { name: 'About', href: '/About' },
     { name: 'Services', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Contact', href: '/Contact' },
 ]
 
 function Footer() {
@@ -14,7 +14,7 @@ function Footer() {
 
                     {navigation.map((name, i) => (
                         <div className="px-5 py-2" key={name}>
-                            <a href="#" className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                            <a href={name.href} className="text-base leading-6 text-gray-500 hover:text-gray-900">
                                 {name.name}
                             </a>
                         </div>

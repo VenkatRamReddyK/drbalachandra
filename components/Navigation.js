@@ -10,7 +10,7 @@ function Navigation() {
     const navigation = [
         { name: 'About', href: '/About' },
         { name: 'Services', href: '#' },
-        { name: 'Contact', href: '#' },
+        { name: 'Contact', href: '/Contact' },
     ]
     // const [Navbar, setNavbar] = useState(false);
     // const changeBackground = () => {
@@ -39,13 +39,13 @@ function Navigation() {
 
     return <div>
 
-        <nav className={'navbar drop-shadow-lg'}>
+        <nav className={'navbar drop-shadow-lg z-[100]'}>
             <div className='z-10 flex items-center justify-between h-20 px-5 border-t-2 '>
                 <div className='flex items-center'>
-                  <a href="/" className='flex items-center'>
-                  <img src={'about-tooth.png'} className='w-10 ' alt="" /> <h3 className='ml-2 text-base font-bold sm:text-base md:text-lg lg:text-2xl '>Dr Bala Chandra DDS
-                    </h3>
-                  </a>
+                    <a href="/" className='flex items-center'>
+                        <img src={'about-tooth.png'} className='w-10 ' alt="" /> <h3 className='ml-2 text-base font-bold sm:text-base md:text-lg lg:text-2xl '>Dr Bala Chandra DDS
+                        </h3>
+                    </a>
                 </div>
 
 
@@ -129,13 +129,19 @@ function Navigation() {
                         </Popover.Panel>
                     </Transition>
                 </Popover>
-                <div className='sticky z-10 flex flex-col hidden px-3 py-2 text-gray-900 md:hidden sm:hidden lg:inline-block'>
-                    <h2 className='flex space-x-2 '>
-                        <p className='font-bold '><MailIcon className='w-5 h-5' /></p> <a href='mailto:drbala@gmail.com'>drbala@gmail.com</a>
-                    </h2>
-                    <h2 className='flex space-x-2'>
-                        <p className='font-bold '><PhoneIcon className='w-5 h-5' /></p> <a href='mailto:drbala@gmail.com'>+91 987654321</a>
-                    </h2>
+                <div className='sticky z-10 flex hidden px-3 py-2 text-gray-900 md:hidden sm:hidden lg:flex'>
+                    <div className='m-auto space-x-2 space-y-1'>
+                        <h2 className='flex space-x-2 '>
+                            <p className='font-bold '><MailIcon className='w-5 h-5 text-pink-400' /></p> <a href='mailto:drbala@gmail.com'>drbala@gmail.com</a>
+                        </h2>
+                        <h2 className='flex space-x-2'>
+                            <p className='font-bold '><PhoneIcon className='w-5 h-5 text-pink-400' /></p> <a href='mailto:drbala@gmail.com'>+91 987654321</a>
+                        </h2>
+                    </div>
+                    <div cla>
+                        <img src="doc.jpg" className='object-cover w-16 h-16 rounded-full ' alt="" />
+                    </div>
+
                 </div>
 
 
