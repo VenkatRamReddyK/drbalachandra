@@ -7,7 +7,7 @@ import { UserGroupIcon, UserIcon, StarIcon } from '@heroicons/react/outline'
 function About() {
     const contentStyle = "background: 'rgb(233, 30, 99)', color: '#fff' ";
 
-    return <div className='pt-20 bg-gray-100 bg-contain bg-hero-section'>
+    return <div className='pt-20 bg-gray-100 bg-contain bg-about-section'>
         <h2 className='p-5 font-semibold text-center text-7xl'>
             About Me
         </h2>

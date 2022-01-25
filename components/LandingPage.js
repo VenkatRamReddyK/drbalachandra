@@ -11,7 +11,7 @@ function LandingPage() {
                         <h1>
                             This is great and awesome
                         </h1>
-                        <p className='mb-10'>
+                        <p className='mb-10 text-xl'>
                             Served 
                             <Typewriter
                                 words={[' more than 1M Happy Customers', ' for 18+ years and running still', ' as Family instead of client', ' inka text rayali mawa bro']}
@@ -38,4 +38,4 @@ function LandingPage() {
     </div>;
 }
 
-export default LandingPage;
+export default LandingPage; 

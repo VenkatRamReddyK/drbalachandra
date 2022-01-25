@@ -8,6 +8,7 @@ import { Dialog, Popover, Transition } from '@headlessui/react'
 function Navigation() {
 
     const navigation = [
+        { name: 'Home', href: '/' },
         { name: 'About', href: '/About' },
         { name: 'Services', href: '/Services' },
         { name: 'Contact', href: '/Contact' },
@@ -63,8 +64,8 @@ function Navigation() {
                                 </div>
                             </div>
                             <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 navList">
-                                {navigation.map((item) => (
-                                    <li className='rounded-md hover:bg-gray-100'>
+                                {navigation.map((item,i) => (
+                                    <li className='rounded-md hover:bg-gray-100' key={i}>
                                         <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900 ">
                                             {item.name}
                                         </a>
@@ -106,9 +107,9 @@ function Navigation() {
                                         </Popover.Button>
                                     </div>
                                 </div>
-                                <div className="flex justify-around px-2 pt-2 pb-3 space-y-1 navList">
-                                    {navigation.map((item) => (
-                                        <li>
+                                <div className="flex flex-col justify-center px-2 pt-2 pb-3 space-y-1 text-center max-w-max navList">
+                                    {navigation.map((item,i) => (
+                                        <li key={i}>
                                             <a
                                                 key={item.name}
                                                 href={item.href}
@@ -119,12 +120,7 @@ function Navigation() {
                                         </li>
                                     ))}
                                 </div>
-                                <a
-                                    href="#"
-                                    className="block w-full px-5 py-3 font-medium text-center text-indigo-600 bg-gray-50 hover:bg-gray-100"
-                                >
-                                    Log in
-                                </a>
+                            
                             </div>
                         </Popover.Panel>
                     </Transition>

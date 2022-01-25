@@ -11,7 +11,7 @@ function Contact() {
             <div className='container'>
                 <h3 className='p-5 my-5 text-4xl font-semibold'>First <span className='text-pink-400'>Office</span></h3>
                 <div>
-                    <section className="relative text-gray-600 body-font">
+                    <section className="relative text-gray-600 body- ">
                         <div className="absolute inset-0 bg-gray-300">
                             <iframe width="100%" height="100%" frameborder="0" marginHeight="0" marginWidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3173.46040542281!2d-121.8168121!3d37.3079205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e32816eb04c19%3A0x55a5cae1e88ca700!2s1569%20Lexann%20Ave%2C%20San%20Jose%2C%20CA%2095121%2C%20USA!5e0!3m2!1sen!2sin!4v1643043771621!5m2!1sen!"></iframe>
                         </div>
@@ -40,6 +40,7 @@ function Contact() {
                             </div>
                         </div>
                     </section>
+                    
                 </div>
             </div>
             <div className='container mt-16'>

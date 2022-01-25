@@ -11,7 +11,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'hero-section': "url('/hero-pattern.png')"
+        'hero-section': "url('/hero-pattern.png')",
+        'about-section': "url('/about-tooth-pattern.png')",
+
       }),
       colors: {
         'themeColor': '#1854ee',
