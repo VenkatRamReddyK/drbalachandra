@@ -9,7 +9,7 @@ function Navigation() {
 
     const navigation = [
         { name: 'About', href: '/About' },
-        { name: 'Services', href: '#' },
+        { name: 'Services', href: '/Services' },
         { name: 'Contact', href: '/Contact' },
     ]
     // const [Navbar, setNavbar] = useState(false);
@@ -138,7 +138,7 @@ function Navigation() {
                             <p className='font-bold '><PhoneIcon className='w-5 h-5 text-pink-400' /></p> <a href='mailto:drbala@gmail.com'>+91 987654321</a>
                         </h2>
                     </div>
-                    <div cla>
+                    <div >
                         <img src="doc.jpg" className='object-cover w-16 h-16 rounded-full ' alt="" />
                     </div>
 
