@@ -1,17 +1,17 @@
 
 function Services() {
 
-    const data = [{ name: "Crowns and Bridges  ", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: " Veneers ", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: " Root Canals ", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: "  Tooth Colored Fillings ", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: "Wisdom Teeth Extraction", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: "   Panoramic X-Rays ", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: "   Periodontal and Gum Disease Treatment ", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: "  Teeth Whitening Using Zoom", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: "  Night Guards ", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: "  Teeth Straightening Using Invisalign", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
-    { name: " Sealants  ", info: " This is the Text, and some information regarding the Data  ", img: "/about-tooth.png" },
+    const data = [{ name: "Crowns and Bridges  ", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/Crownsandbridges.png" },
+    { name: " Veneers ", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/Veneers.png" },
+    { name: " Root Canals ", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/root-canal.png" },
+    { name: "  Tooth Colored Fillings ", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/ToothColoredFilling.png" },
+    { name: "Wisdom Teeth Extraction", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/WisdomTeeth.png" },
+    { name: "   Panoramic X-Rays ", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/Panoramicx-rays.png" },
+    { name: "   Periodontal and Gum Disease Treatment ", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/PeriodontalandGumdisease.png" },
+    { name: "  Teeth Whitening Using Zoom", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/TeethWhiteningUsingzoom.png" },
+    { name: "  Night Guards ", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/NightGuard.png" },
+    { name: "  Teeth Straightening Using Invisalign", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/TeethStraightening.png" },
+    { name: " Sealants  ", info: " This is the Text, and some information regarding the Data  ", img: "/ServicesIcons/Sealants.png" },
     ]
 
     return <div className="pt-20 bg-black ">

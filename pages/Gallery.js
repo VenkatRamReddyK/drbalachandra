@@ -48,11 +48,6 @@ const firstOffice = [
         fullSrc: '/Office1/waiting2.jpg',
         description: " this is text"
     },
-    {
-        src: 'https://picsum.photos/id/154/200/150',
-        fullSrc: 'https://picsum.photos/id/154/200/150',
-        description: " this is text"
-    }
 ]
 
 const App = () => {
@@ -63,7 +58,9 @@ const App = () => {
 
     return (
         <div className='pt-32'>
+        
             <h1 className='text-4xl text-center '>Let have a quick virtual round in our Offices </h1>
+            
             <h2 className='my-10 text-center '>Our First office is </h2>
             <div className='container flex flex-row justify-center p-10 m-auto '>
              
