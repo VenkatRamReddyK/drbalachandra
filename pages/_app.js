@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import '../styles/globals.css'
 import Layout from '../layouts/index';
+import NextNProgress from 'nextjs-progressbar';
+
 
 export default function App({
   Component,
@@ -8,7 +10,15 @@ export default function App({
 }) {
   return (
     <>
+
       <Layout>
+        <NextNProgress
+          color="#f9a8d4"
+          startPosition={3}
+          stopDelayMs={200}
+          height={5}
+          showOnShallow={true}
+         />
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />

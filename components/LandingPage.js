@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import { Typewriter } from 'react-simple-typewriter'
 
 
@@ -12,7 +13,7 @@ function LandingPage() {
                             This is great and awesome
                         </h1>
                         <p className='mb-10 text-xl'>
-                            Served 
+                            Served
                             <Typewriter
                                 words={[' more than 1M Happy Customers', ' for 18+ years and running still', ' as Family instead of client', ' inka text rayali mawa bro']}
                                 loop={10}
@@ -23,9 +24,9 @@ function LandingPage() {
                                 delaySpeed={2000}
                             />
                         </p>
-                        <a href="" className='colorButton w-max'>
-                            Our Services
-                        </a>
+                        <Link className="colorButton w-max" href="/Services">
+                            <a className="colorButton w-max">Our Services</a>
+                        </Link>
                     </div>
                     <div className=''>
                         <img className='hidden object-contain lg:inline-block' src="/doctor.png" alt="" />
@@ -34,7 +35,6 @@ function LandingPage() {
                 </div>
             </div>
         </main>
-
     </div>;
 }
 

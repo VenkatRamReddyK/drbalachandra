@@ -1,8 +1,10 @@
+import Link from 'next/link';
 import React from 'react';
 
 const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/About' },
+    { name: 'Gallery', href: '/Gallery' },
     { name: 'Services', href: '/Services' },
     { name: 'Contact', href: '/Contact' },
 ]
@@ -15,9 +17,9 @@ function Footer() {
 
                     {navigation.map((name, i) => (
                         <div className="px-5 py-2" key={name}>
-                            <a href={name.href} className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                            <Link href={name.href} className="text-base leading-6 text-gray-500 hover:text-gray-900">
                                 {name.name}
-                            </a>
+                            </Link>
                         </div>
                     ))}
 

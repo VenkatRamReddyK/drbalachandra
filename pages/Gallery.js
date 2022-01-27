@@ -49,6 +49,49 @@ const firstOffice = [
         description: " this is text"
     },
 ]
+const secondOffice = [
+    {
+        src: 'Office2/pic1.jpg',
+        fullSrc: '/Office1/FrontDoor.jpg',
+        description: " this is text"
+    },
+    {
+        src: 'Office2/2.jpg',
+        fullSrc: '/Office1/FrontDoor.jpg',
+        description: " this is text"
+    },
+    {
+        src: 'Office2/pic3.jpg',
+        fullSrc: '/Office1/FrontDoor.jpg',
+        description: " this is text"
+    },
+    {
+        src: 'Office2/pic4.jpg',
+        fullSrc: '/Office1/FrontDoor.jpg',
+        description: " this is text"
+    },
+    {
+        src: 'Office2/pic5.jpg',
+        fullSrc: '/Office1/FrontDoor.jpg',
+        description: " this is text"
+    },
+    {
+        src: 'Office2/pic6.jpg',
+        fullSrc: '/Office1/FrontDoor.jpg',
+        description: " this is text"
+    },
+    {
+        src: 'Office2/pic7.jpg',
+        fullSrc: '/Office1/FrontDoor.jpg',
+        description: " this is text"
+    },
+    {
+        src: 'Office2/pic8.jpg',
+        fullSrc: '/Office1/FrontDoor.jpg',
+        description: " this is text"
+    },
+
+]
 
 const App = () => {
     const options2 = {
@@ -61,11 +104,18 @@ const App = () => {
         
             <h1 className='text-4xl text-center '>Let have a quick virtual round in our Offices </h1>
             
-            <h2 className='my-10 text-center '>Our First office is </h2>
+            <h3 className='my-10 text-xl text-center'>Our First <span className='text-pink-400 '>Office</span> is </h3>
             <div className='container flex flex-row justify-center p-10 m-auto '>
              
                 <Carousel
                    images={firstOffice} style={{ height: 500, width: 800 }} 
+                />
+            </div>
+            <h3 className='my-10 text-xl text-center'>Our Second <span className='text-pink-400 '>Office</span> is </h3>
+            <div className='container flex flex-row justify-center p-10 m-auto '>
+
+                <Carousel
+                    images={secondOffice} style={{ height: 500, width: 800 }}
                 />
             </div>
 

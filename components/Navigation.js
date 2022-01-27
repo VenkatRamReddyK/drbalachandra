@@ -1,6 +1,7 @@
 import { MailIcon, PhoneIcon, MenuIcon, XIcon } from '@heroicons/react/outline/'
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Transition } from '@headlessui/react'
+import Link from 'next/link'
 
 
 
@@ -10,6 +11,7 @@ function Navigation() {
     const navigation = [
         { name: 'Home', href: '/' },
         { name: 'About', href: '/About' },
+        { name: 'Gallery', href: '/Gallery' },
         { name: 'Services', href: '/Services' },
         { name: 'Contact', href: '/Contact' },
     ]
@@ -66,9 +68,9 @@ function Navigation() {
                             <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 navList">
                                 {navigation.map((item,i) => (
                                     <li className='rounded-md hover:bg-gray-100' key={i}>
-                                        <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900 ">
+                                        <Link key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900 ">
                                             {item.name}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))}
                             </div>
@@ -109,14 +111,14 @@ function Navigation() {
                                 </div>
                                 <div className="flex flex-col justify-center px-2 pt-2 pb-3 space-y-1 text-center max-w-max navList">
                                     {navigation.map((item,i) => (
-                                        <li key={i}>
-                                            <a
+                                        <li key={i}> 
+                                            <Link
                                                 key={item.name}
                                                 href={item.href}
                                                 className="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50"
                                             >
                                                 {item.name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))}
                                 </div>
