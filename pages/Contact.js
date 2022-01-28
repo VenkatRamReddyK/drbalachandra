@@ -1,4 +1,4 @@
-import { HomeIcon, InformationCircleIcon, OfficeBuildingIcon } from '@heroicons/react/outline';
+import { ClockIcon, HomeIcon, InformationCircleIcon, OfficeBuildingIcon } from '@heroicons/react/outline';
 import React from 'react';
 import { PhoneIcon } from '@heroicons/react/outline/';
 
@@ -33,6 +33,21 @@ function Contact() {
                                     </p>
                                 </div>
                                 <div className='flex space-x-3'>
+                                    <span><ClockIcon className='w-6 text-pink-400' /></span>
+                                    <div>
+                                        <p className="mb-2 leading-relaxed text-gray-600">
+                                            Monday through Friday	9:00 AM to 5:00 PM
+                                        </p>
+                                        <p className="mb-2 leading-relaxed text-gray-600">
+                                            Saturday	9:00AM - 7:00PM
+                                        </p>
+                                        <p className="mb-2 leading-relaxed text-gray-600">
+
+                                            Sunday	9:00AM - 4:00PM
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className='flex space-x-3'>
                                     <span><InformationCircleIcon className='w-6 text-pink-400' /></span>
                                     <p className='text-sm text-gray-400 '> Easy Access from 101/280/680/880</p>
                                 </div>
@@ -40,7 +55,7 @@ function Contact() {
                             </div>
                         </div>
                     </section>
-                    
+
                 </div>
             </div>
             <div className='container mt-16'>
@@ -68,6 +83,22 @@ function Contact() {
                                         <a href="tel:408-684-4122">+1 408-684-4122</a>
                                     </p>
                                 </div>
+                                <div className='flex space-x-3'>
+                                    <span><ClockIcon className='w-6 text-pink-400' /></span>
+                                    <div>
+                                        <p className="mb-2 leading-relaxed text-gray-600">
+                                            Monday through Friday	9:00 AM to 5:00 PM
+                                        </p>
+                                        <p className="mb-2 leading-relaxed text-gray-600">
+                                            Saturday	9:00AM - 7:00PM
+                                        </p>
+                                        <p className="mb-2 leading-relaxed text-gray-600">
+
+                                            Sunday	9:00AM - 4:00PM
+                                        </p>
+                                    </div>
+                                </div>
+                                
                                 <div className='flex space-x-3'>
                                     <span><InformationCircleIcon className='w-6 text-pink-400' /></span>
                                     <p className='text-sm text-gray-400 '> We are located in San Jose Evergreen Area and close to intersection of Capitol Expressway and Silver Creek / Aborn Road. Easy Access from 101 and Capitol Expressway.</p>

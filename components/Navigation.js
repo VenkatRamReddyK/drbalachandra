@@ -66,12 +66,14 @@ function Navigation() {
                                 </div>
                             </div>
                             <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 navList">
-                                {navigation.map((item,i) => (
-                                    <li className='rounded-md hover:bg-gray-100' key={i}>
-                                        <Link key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900 ">
-                                            {item.name}
-                                        </Link>
-                                    </li>
+                                {navigation.map((item, i) => (
+                                    <Link key={item.name} href={item.href} className="text-gray-500 hover:text-gray-300">
+                                        <li className='rounded-md hover:bg-gray-100 hover:text-pink-400 hover:cursor-pointer' key={i}>
+                                            <a className="font-medium ">
+                                                {item.name}
+                                            </a>
+                                        </li>
+                                    </Link>
                                 ))}
                             </div>
                         </nav>
@@ -110,8 +112,8 @@ function Navigation() {
                                     </div>
                                 </div>
                                 <div className="flex flex-col justify-center px-2 pt-2 pb-3 space-y-1 text-center max-w-max navList">
-                                    {navigation.map((item,i) => (
-                                        <li key={i}> 
+                                    {navigation.map((item, i) => (
+                                        <li key={i}>
                                             <Link
                                                 key={item.name}
                                                 href={item.href}
@@ -122,7 +124,7 @@ function Navigation() {
                                         </li>
                                     ))}
                                 </div>
-                            
+
                             </div>
                         </Popover.Panel>
                     </Transition>
