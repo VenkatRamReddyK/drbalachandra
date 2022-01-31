@@ -7,7 +7,7 @@ function LandingPage() {
     return <div className='' >
         <main className=''>
             <div className='bg-center bg-cover bg-hero-section 2xl:bg-contain'>
-                <div className='container flex flex-row items-center justify-between min-h-screen mx-auto mt-12 -mb-12 lg:mt-5 '>
+                <div className='container flex flex-row items-center justify-between mx-auto mt-12 -mb-12 lg:mt-5 '>
                     <div className='flex flex-col justify-center m-6'>
                         <h1>
                             This is great and awesome
