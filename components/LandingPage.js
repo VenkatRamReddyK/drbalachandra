@@ -29,7 +29,7 @@ function LandingPage() {
                         </Link>
                     </div>
                     <div className=''>
-                        <img className='hidden object-contain lg:inline-block' src="/doctor.png" alt="" />
+                        <img className='hidden object-contain md:inline-block lg:inline-block' src="/doctor.png" alt="" />
                     </div>
 
                 </div>
