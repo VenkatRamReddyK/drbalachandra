@@ -15,7 +15,7 @@ function LandingPage() {
                         <p className='mb-10 text-xl'>
                             Served
                             <Typewriter
-                                words={[' more than 1M Happy Customers', ' for 18+ years and running still', ' as Family instead of client', ' inka text rayali mawa bro']}
+                                words={[' more than 1M Happy Customers', ' for 18+ years and running still', ' as Family instead of client', ' with confidence']}
                                 loop={10}
                                 cursor
                                 cursorStyle='🦷'
